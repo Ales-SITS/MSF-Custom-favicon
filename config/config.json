@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "msf-custom-favicon-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/msfCustomFavicon/MsfCustomFaviconApplicationCustomizer.js",
+          "manifest": "./src/extensions/msfCustomFavicon/MsfCustomFaviconApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsfCustomFaviconApplicationCustomizerStrings": "lib/extensions/msfCustomFavicon/loc/{locale}.js"
+  }
+}

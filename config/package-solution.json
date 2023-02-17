@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "MSF custom favicon",
+    "id": "c71f5d2f-09cf-4e5e-8664-148a7969da6a",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "iconPath": "sharepointMSF.png",
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Set you custom favicon for your SPO Site"
+      },
+      "longDescription": {
+        "default": "This app allows you to have your own custom favicon for your site. Using is simple, after installing it from the tenant app catalog, site thumbnail (set in settings > Change look > Header) will be set as your new favicon. If you wish to have a different picture, than the site thumbnail, upload your picture in ico format to SiteAssets library with name favicon -> 'favicon.ico'. The picture address will become something like 'https://msfintl.sharepoint.com/sites/<your site url>/SiteAssets/favicon.ico'."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "MSF custom favicon",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "c3d28206-e0c8-4fd8-bd9b-765bab3fc32a",
+        "version": "1.0.0.5",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/msf-custom-favicon.sppkg"
+  }
+}

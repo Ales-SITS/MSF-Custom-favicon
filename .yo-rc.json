@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "msf-custom-favicon",
+    "libraryId": "c71f5d2f-09cf-4e5e-8664-148a7969da6a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "msf-custom-favicon",
+    "solutionShortDescription": "msf-custom-favicon description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

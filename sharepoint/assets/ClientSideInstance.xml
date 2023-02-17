@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="MsfCustomFavicon"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="6941153b-e2d1-4d28-a5cc-cc2747c927d5"
+        Properties="">
+    </ClientSideComponentInstance>
+</Elements>
